@@ -2,15 +2,13 @@
 using namespace std;
 
 int main() {
-	int bil;
-	
-	cout << " Masukan Bilangan : ";
-	cin >> bil;
-	
-	if(bil%2==0){
-		cout << " Bilangan Genap." <<endl;
-	}else {
-		cout << " Bilangan Ganjil. " <<endl;
-	}
+  int a = 1;
+  while(a <=200 ) {
+  	if(a%3==0 && a%8==0)
+  	{ cout << a << endl;
+	  }
+	  a++;
+  } return 0;
 }
-
+  
+  
